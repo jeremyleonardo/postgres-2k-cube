@@ -3,7 +3,7 @@ FROM postgres:13.1
 ENV PG_VERSION 13.1.0
 
 RUN set -xe  \
-    && apt-get update && apt-get install -y build-essential curl postgresql-server-dev-13.1 \
+    && apt-get update && apt-get install -y build-essential curl postgresql-server-dev-13 \
     && mkdir /build \
     && curl https://ftp.postgresql.org/pub/source/v$PG_VERSION/postgresql-$PG_VERSION.tar.bz2 \
             -o /build/postgresql-$PG_VERSION.tar.bz2 \
