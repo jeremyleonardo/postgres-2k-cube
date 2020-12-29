@@ -1,1 +1,3 @@
-# postgres-2k-cube
+# Postgres 2k Cube
+
+Postgres with cube dimension limit changed to 2000.
